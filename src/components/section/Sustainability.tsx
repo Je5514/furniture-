@@ -28,7 +28,10 @@ export default function SustainabilitySection() {
             {/* List */}
             <ul className="mt-14 max-w-[830px]">
               {items.map((item) => (
-                <li key={item.title} className="border-b border-[#efecd5]">
+                <li
+                  key={item.title}
+                  className="border-b border-[#efecd5]"
+                >
                   <Link
                     href={item.href}
                     className="group flex items-center justify-between py-5 text-xl text-black transition-colors hover:text-[#6b8f63] md:py-6 md:text-2xl"
